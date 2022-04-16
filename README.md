@@ -1,13 +1,30 @@
+Next.js app using Sanity.io for save the data in cloud, Moralis as backend, Hardhat and OpenZeppelin for smart contracts, Alchemy for testing new crypto-currency and more.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+## App View
+![](./assets/main.png)
+##### Main View
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
+$ npm run dev
 # or
-yarn dev
+$ yarn dev
+```
+
+/studio
+```bash
+$ sanity start
+```
+
+/smart-contract
+```bash
+$ npx hardhat run scripts/deploy.js --network rinkeby
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
