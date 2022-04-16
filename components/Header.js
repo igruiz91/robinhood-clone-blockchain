@@ -9,7 +9,6 @@ const Header = () => {
   const {
     connectWallet,
     signOut,
-    currentAccount,
     isAuthenticated,
     formattedAccount,
   } = useContext(RobinHoodContext);

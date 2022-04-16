@@ -1,5 +1,5 @@
 import { Line } from "react-chartjs-2";
-import Chart from "chart.js/auto";
+// import Chart from "chart.js/auto";
 
 const Asset = ({ coin, price }) => {
   const setGraphColor = () => {
